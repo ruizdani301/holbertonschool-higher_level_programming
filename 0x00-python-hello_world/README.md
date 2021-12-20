@@ -1,7 +1,8 @@
 ********************************
 *  <h1>0x00. Python - Hello, World<h1>
 ********************************
-<h2>General<h2>
+<p>This is the first project where basic activities will be carried out in order to understand the fundamentals of python</p>
+  <h2>General<h2>
 <ul>  
   <li>Why Python programming is awesome</li>
   <li>Who created Python</li>
