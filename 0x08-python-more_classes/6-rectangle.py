@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 """
-     Area and Perimeter
-     Write a class Rectangle that defines a rectangle
-     by: (based on 1-rectangle.py)
+    Area and Perimeter
+    Write a class Rectangle that defines a rectangle
+    by: (based on 1-rectangle.py)
 """
 
 
 class Rectangle:
     """
-    define Rectangle
-    this module define rectangle
+        define Rectangle
+        this module define rectangle
     """
 
     def __init__(self, width=0, height=0):
@@ -22,7 +22,7 @@ class Rectangle:
         """
             to retrieve width
             defines a rectangle by: (based on 5-rectangle.py)
-          """
+        """
         return self.__width
 
     @width.setter
@@ -34,27 +34,27 @@ class Rectangle:
         if type(value) is not int:
             raise TypeError("width must be an integer")
         if value < 0:
-            raise ValueError("with the message width must be >= 0")
+            raise ValueError("with must be >= 0")
         self.__width = value
 
     @property
     def height(self):
         """
-        to retrieve height
-        defines a rectangle by: (based on 5-rectangle.py)
+            to retrieve height
+            defines a rectangle by: (based on 5-rectangle.py)
         """
         return self.__height
 
     @height.setter
     def height(self, value):
         """
-        setter height
-        defines a rectangle by: (based on 5-rectangle.py)
+            setter height
+            defines a rectangle by: (based on 5-rectangle.py)
         """
         if type(value) is not int:
             raise TypeError("height must be an integer")
         if value < 0:
-            raise ValueError("height the message width must be >= 0")
+            raise ValueError("height must be >= 0")
         self.__height = value
 
     def area(self):
@@ -88,13 +88,15 @@ class Rectangle:
         return strc[0:-1]
 
     def __repr__(self):
-        """ Write a class Rectangle
+        """
+            Write a class Rectangle
             that defines a rectangle by: (based on 5-rectangle.py)
         """
         return "Rectangle({}, {})".format(self.__height, self.__width)
 
     def __del__(self):
-        """ delete class
+        """
+            delete class
             that defines a rectangle by: (based on 5-rectangle.py)
         """
         print("Bye rectangle...")
