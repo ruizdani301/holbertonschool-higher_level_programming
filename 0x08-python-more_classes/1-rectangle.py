@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 """
-     Real definition of a rectangle
-     Write a class Rectangle that defines a rectangle
-     by: (based on 0-rectangle.py)
+    Real definition of a rectangle
+    Write a class Rectangle that defines a rectangle
+    by: (based on 0-rectangle.py)
 """
 
 
 class Rectangle:
     """
-    define Rectangle
-    this module define rectangle
+        define Rectangle
+        this module define rectangle
     """
 
     def __init__(self, width=0, height=0):
