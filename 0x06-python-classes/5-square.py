@@ -30,7 +30,6 @@ class Square():
         if self.__size == 0:
             print()
         for i in range(0, self.__size):
-            print()
             for j in range(0, self.__size):
                 print("{}".format('#'), end="")
-        print()
+            print()
