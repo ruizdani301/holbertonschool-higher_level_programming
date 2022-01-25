@@ -1,0 +1,60 @@
+The ``3-say_my_name`` module
+======================
+
+Using ``say_my_name``
+-------------------
+
+Importing the function from the module:
+>>> say_my_name = __import__("3-say_my_name").say_my_name
+
+Checking for module docstring:
+>>> m = __import__("3-say_my_name").__doc__
+>>> len(m) > 1
+True
+
+Checking for function docstring:
+>>> f = __import__("3-say_my_name").say_my_name.__doc__
+>>> len(f) > 1
+True
+
+Checking regular print:
+>>> say_my_name("hola","mundo")
+My name is hola mundo
+
+Checking first name not string:
+>>> say_my_name(5,"mundo")
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+Checking first name not string:
+>>> say_my_name("hola",5)
+Traceback (most recent call last):
+...
+TypeError: last_name must be a string
+
+Checking first parameter is none:
+>>> say_my_name(None,"mundo")
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+Checking second parameter is none:
+>>> say_my_name("hola",None)
+Traceback (most recent call last):
+...
+TypeError: last_name must be a string
+
+Checking parameter empty:
+>>> say_my_name("","")
+My name is  
+
+
+Checking second parameter is empty:
+>>> say_my_name("hola","")
+My name is hola 
+
+
+Checking second parameter is none:
+>>> say_my_name("hola")
+My name is hola 
