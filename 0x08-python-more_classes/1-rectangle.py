@@ -13,8 +13,8 @@ class Rectangle:
     """
 
     def __init__(self, width=0, height=0):
-        self.__height = height
         self.__width = width
+        self.__height = height
 
     @property
     def width(self):
@@ -40,7 +40,7 @@ class Rectangle:
     def height(self):
         """
             to retrieve height
-            defines a rectangle by: (based on 1-rectangle.py)
+            defines a rectangle by: (based on 0-rectangle.py)
         """
         return self.__height
 
