@@ -15,8 +15,8 @@ class Rectangle:
     print_symbol = '#'
 
     def __init__(self, width=0, height=0):
-        self.__height = height
         self.__width = width
+        self.__height = height
         Rectangle.number_of_instances += 1
 
     @property
@@ -34,10 +34,10 @@ class Rectangle:
             Write a class Rectangle that defines
             a rectangle by: (based on 1-rectangle.py)
         """
-        if type(value) is not int:
+        if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if value < 0:
-            raise ValueError("with must be >= 0")
+            raise ValueError("width must be >= 0")
         self.__width = value
 
     @property
