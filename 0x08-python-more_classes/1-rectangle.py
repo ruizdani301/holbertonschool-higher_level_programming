@@ -8,7 +8,7 @@
 
 class Rectangle:
     """
-        define Rectangle
+        define Rectangle.
         this module define rectangle
     """
 
