@@ -55,7 +55,7 @@ class Rectangle:
            Write a class Rectangle that defines
            a rectangle by: (based on 8-rectangle.py)
         """
-        if type(value) is not int:
+        if not isinstance(value, int):
             raise TypeError("height must be an integer")
         if value < 0:
             raise ValueError("height must be >= 0")
@@ -74,30 +74,30 @@ class Rectangle:
             Write a class Rectangle that defines
             a rectangle by: (based on 8-rectangle.py)
         """
-        if self.width == 0 or self.height == 0:
+        if self.height == 0 or self.width == 0:
             return 0
-        return (self.width + self.height) * 2
+        return 2 * (self.width + self.height)
 
     def __str__(self):
         """print character #
            str() should print the rectangle
            with the character #
         """
-        if self.__width == 0 or self.__height == 0:
+        if self.height == 0 or self.width == 0:
             return ''
         strc = ''
         for i in range(0, self.__height):
             for j in range(0, self.__width):
                 strc += str(self.print_symbol)
             strc += '\n'
-        return strc[0:-1]
+        return strc[:-1]
 
     def __repr__(self):
         """
             Write a class Rectangle
             that defines a rectangle by: (based on 8-rectangle.py)
         """
-        return "Rectangle({}, {})".format(self.__height, self.__width)
+        return "Rectangle({}, {})".format(self.__width, self.__height)
 
     def __del__(self):
         """
