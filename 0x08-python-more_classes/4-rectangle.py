@@ -91,4 +91,4 @@ class Rectangle:
             Write a class Rectangle
             that defines a rectangle by: (based on 3-rectangle.py)
         """
-        return "Rectangle({}, {})".format(self.__height, self.__width)
+        return "Rectangle({}, {})".format(self.__width, self.__height)
