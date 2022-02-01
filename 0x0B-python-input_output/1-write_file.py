@@ -2,6 +2,8 @@
 """Write a function that
        write a file
 """
+
+
 def write_file(filename="", text=""):
     """Write a function that
        write a file
