@@ -1,4 +1,4 @@
-#!/usrt/bin/python3
+#!/usr/bin/python3
 """Write a function that
        write a file
 """
