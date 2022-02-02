@@ -2,10 +2,12 @@
 """Write a class Student
    that defines a student by:
 """
-import json
 
 
 class Student():
+    """Write a class Student
+       that defines a student by:
+    """
 
     def __init__(self, first_name, last_name, age):
 
@@ -13,5 +15,8 @@ class Student():
         self.last_name = last_name
         self.age = age
 
-        def to_json(self):
-            return json.dump(self.Student)
+    def to_json(self):
+        """Write a class Student
+           that defines a student by:
+        """
+        return self.__dict__
