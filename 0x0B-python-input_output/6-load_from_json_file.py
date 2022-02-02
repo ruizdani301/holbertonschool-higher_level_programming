@@ -9,8 +9,4 @@ def load_from_json_file(filename):
        an Object from a “JSON file”:
     """
     with open(filename) as f:
-        leido = f.read()
-        f.close
-
-    muestra =  json.loads(leido)
-    print(type(muestra))
+        return json.loads(f)
