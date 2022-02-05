@@ -4,14 +4,16 @@
 """
 import sys
 
-from click import argument
+save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
+load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 
-save_to_json_file = __import__('5-save_to_json_file.py').save_to_json_file
-load_from_json_file = __import__('6-load_from_json_file.py').load_from_json_file
+file_new = "add_item.json"
 
-argm = sys.argv[1:]
+try:
+    new_content = load_from_json_file(file_new)
+except:
+    new_content = []
 
-
-save_to_json_file(argm, add_item.json)
-
-load_from_json_file(add_item.json)
+for i in sys.argv[1:]:
+    new_content.append(i)
+save_to_json_file(new_content, file_new)
