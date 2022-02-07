@@ -38,5 +38,5 @@ class Base:
         ls = []
         for i in list_objs:
             ls.append(cls.to_dictionary(i))
-        with open(file, "w+") as f:
+        with open(file, "w") as f:
             f.write(cls.to_json_string(ls))
