@@ -39,7 +39,7 @@ class Square(Rectangle):
            if no args set attributes with kwargs
         """
         kwargs.update(width=kwargs.get("size", self.width),
-         height=kwargs.get("size", self.height))
+                      height=kwargs.get("size", self.height))
         if len(args) > 2:
             args = [*args[:1], args[1], *args[1:]]
         super().update(*args, **kwargs)
