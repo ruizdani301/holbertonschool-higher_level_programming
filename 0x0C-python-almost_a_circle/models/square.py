@@ -38,7 +38,6 @@ class Square(Rectangle):
         """if args set attributes id, width, height, x , y
            if no args set attributes with kwargs
         """
-
         kwargs.update(width=kwargs.get("size", self.width),
          height=kwargs.get("size", self.height))
         if len(args) > 2:
