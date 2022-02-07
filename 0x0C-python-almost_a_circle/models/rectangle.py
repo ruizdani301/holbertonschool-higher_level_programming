@@ -13,7 +13,6 @@ class Rectangle(Base):
         self.height = height
         self.x = x
         self.y = y
-        print(type(x))
 
     @property
     def width(self):
