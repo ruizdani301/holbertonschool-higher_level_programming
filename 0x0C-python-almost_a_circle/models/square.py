@@ -5,8 +5,6 @@
    The setter should have the same value validation
    as the Rectangle for width and height
 """
-
-
 from models.rectangle import Rectangle
 
 
