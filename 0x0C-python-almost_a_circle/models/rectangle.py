@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""Created a class Rectangle
+"""Write the first class Base:
+   Created a class Rectangle
 """
-
 from models.base import Base
 
 
@@ -14,6 +14,7 @@ class Rectangle(Base):
         self.x = x
         self.y = y
         print(type(x))
+
     @property
     def width(self):
         """to retrieve width"""
