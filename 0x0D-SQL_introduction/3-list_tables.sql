@@ -1,4 +1,4 @@
--- show the tables
--- cat 3-list_tables.sql | mysql -hlocalhost -uroot -p mysql
+-- list all tables in database
+-- cat [filename] | mysql -hlocalhost -uroot -p mysql
 
-SHOW TABLE;
+SHOW tables;
