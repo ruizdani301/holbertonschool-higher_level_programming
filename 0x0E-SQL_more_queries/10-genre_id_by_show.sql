@@ -1,4 +1,4 @@
--- Import the database dump from hbtn_0d_tvshows
+-- Import the database dump, from hbtn_0d_tvshows
 -- your MySQL server:
 
 SELECT tv_shows.title, tv_show_genres.genre_id
