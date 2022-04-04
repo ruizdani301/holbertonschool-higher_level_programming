@@ -3,6 +3,6 @@
 let argc = 0;
 
 exports.logMe = function (item) {
-  console.log(argc + ": " + item)
+  console.log(argc + ': ' + item);
   argc++;
-}
+};
