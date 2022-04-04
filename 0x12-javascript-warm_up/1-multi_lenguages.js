@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+#!/usr/bin/node
+
 console.log('C is fun');
 console.log('k');
 console.log('k');
