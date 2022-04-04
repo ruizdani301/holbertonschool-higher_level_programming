@@ -2,7 +2,7 @@
 
 const args = process.argv;
 
-if (args.length >= 3) {
+if (args.length > 3) {
   console.log('Arguments found');
 } else if (args.length === 3) {
   console.log('Argument found');
