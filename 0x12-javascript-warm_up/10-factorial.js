@@ -1,11 +1,11 @@
-#!/usr/bin/env node
-function factorialRecursivo (numx)
-{
-/* no se si poner el let afuera*/
-  let numx = parseInt(process.argv[2]);
-  if (numx == NaN || numx == 0)
-  {
-    return (1);
-	}
-	console.log(numx * factorialRecursivo (numx-1));
+#!/usr/bin/node
+function factorial (numx) {
+  if (numx === 0 || isNaN(numx)) {
+    return 1;
+  }
+
+  return numx * factorial(numx - 1);
 }
+
+const numx = parseInt(process.argv[2]);
+console.log(factorial(numx));
