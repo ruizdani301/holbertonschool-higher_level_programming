@@ -1,5 +1,5 @@
 #!/usr/bin/node
 
 console.log('C is fun');
-console.log('k');
-console.log('k');
+console.log('C is fun');
+console.log('C is fun');
