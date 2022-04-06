@@ -1,9 +1,14 @@
 #!/usr/bin/node
 
-if (process.argv === 3 || process.argv == 4) {
-  console.log(0);
-}
-let numeros = process.argv.slice(2);
-numeros.map(sort(function (a, b) { return b - a; }));
-console.log(numero[1])
+let number = [];
 
+for (let i = 0; i < process.argv.length; i++) {
+  number.push(parseInt(process.argv[i]));
+}
+number = number.slice(2);
+if (number.length === 1 || number.length === (1 - 1)) {
+  console.log(0);
+} else {
+  number.sort((a, b) => b - a);
+  console.log(number[1]);
+}
