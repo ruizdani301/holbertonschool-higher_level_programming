@@ -10,9 +10,9 @@ request(url, function (error, results, body) {
     let cont = 0;
     const movieData = JSON.parse(body).results;
 
-    for (let i = 0; i < movieData.length - 1; i++) {
+    for (let i = 0; i < movieData.length; i++) {
       const chart = (movieData[i].characters);
-      for (let j = 0; j < chart.length - 1; j++) {
+      for (let j = 0; j < chart.length; j++) {
         if (chart[j].includes('https://swapi-api.hbtn.io/api/people/18/')) {
           cont++;
         }
