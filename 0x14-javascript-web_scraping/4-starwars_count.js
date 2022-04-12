@@ -10,8 +10,6 @@ request(url, function (error, results, body) {
     let cont = 0;
     const movieData = JSON.parse(body).results;
 
-    console.log(typeof (movieData));
-
     for (let i = 0; i < movieData.length - 1; i++) {
       const chart = (movieData[i].characters);
       for (let j = 0; j < chart.length - 1; j++) {
