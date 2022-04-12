@@ -11,7 +11,7 @@ request(url, function (error, results, body) {
     const data = (JSON.parse(body).characters);
     function nombres (data) {
       const actual = data.shift();
-      if (actual == null) {
+      if (!actual) {
         return;
       }
       request(actual, function (error, result, body) {
