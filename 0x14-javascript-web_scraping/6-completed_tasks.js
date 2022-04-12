@@ -7,10 +7,7 @@ request(url, function (error, results, body) {
   if (error) {
     console.log(error);
   } else {
-    console.log(typeof (body));
     const data = JSON.parse(body);
-    console.log(typeof (data));
-
     const newDic = {};
 
     for (let i = 0; i < data.length - 1; i++) {
