@@ -7,7 +7,7 @@ request(url, function (error, results, body) {
   if (error) {
     console.log(error);
   } else {
-    /* const urlDos = []; */
+    /*const urlDos = [];*/
     const data = (JSON.parse(body).characters);
 
     for (let i = 0; i < data.length; i++) {
