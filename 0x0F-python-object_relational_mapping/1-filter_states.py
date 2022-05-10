@@ -16,4 +16,3 @@ if __name__ == "__main__":
     filas = cur.fetchall()
     for x in filas:
         print(x)
-    database.close();
