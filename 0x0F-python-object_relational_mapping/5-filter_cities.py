@@ -26,3 +26,5 @@ if __name__ == "__main__":
             if larg != 0:
                 print(x[0], end=", ")
         print(x[0])
+    else:
+        print()
