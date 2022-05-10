@@ -18,5 +18,14 @@ if __name__ == "__main__":
             join states on states.id = cities.state_id\
             WHERE states.name=%s order by states.id ASC;", (sys.argv[4], ))
     filas = cur.fetchall()
-    for x in filas:
-        print(x)
+    larg = (len(filas))
+    try:
+        if sys.argv[4] in filas[2]:
+            for x in filas:
+                if x[2] == sys.argv[4]:
+                    if larg != 1:
+                        larg = larg - 1
+                        print(x[1], end=", ")
+            print(x[1])
+    except:
+        pass
