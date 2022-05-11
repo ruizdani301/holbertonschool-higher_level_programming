@@ -10,6 +10,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 from model_state import Base
 Base = declarative_base()
 
+
 class City(Base):
     """ Class City"""
     __tablename__ = 'cities'
