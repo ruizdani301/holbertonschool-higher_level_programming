@@ -13,7 +13,7 @@ if __name__ == "__main__":
                            pool_pre_ping=True)
     Base.metadata.create_all(engine)
     sesionCRUD = Session(engine)
-    state = sesionCRUD.query(State).filter(State.name == sys.argv[4]).one()
+    state = sesionCRUD.query(State).filter(State.name == sys.argv[4]).first()
     if state is None:
         print('Not found')
     else:
