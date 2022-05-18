@@ -1,0 +1,65 @@
+## 0x10. Python - Network #0
+### 
+
+For Holberton School
+Cohort 16.
+
+### General
+
+What a URL is
+What HTTP is
+How to read a URL
+The scheme for a HTTP URL
+What a domain name is
+What a sub-domain is
+How to define a port number in a URL
+What a query string is
+What an HTTP request is
+What an HTTP response is
+What HTTP headers are
+What the HTTP message body is
+What an HTTP request method is
+What an HTTP response status code is
+What an HTTP Cookie is
+How to make a request with cURL
+What happens when you type google.com in your browser (Application level)
+
+#### Resources
+#### Read or watch:
+HTTP (HyperText Transfer Protocol) (except: “TRACE” Request Method, “CONNECT” Request Method, Language Negotiation and “Options MultiView” and Character Set Negotiation)
+HTTP Cookies
+
+![nombre de la imagen](va url imagen)
+
+#### Extra resources around relational:
+
+
+## Files included
+
+| File                 | Details                                    |
+|--------------------- | ------------------------------------------ |
+| [nombre del archivo](link del archivo en github.com) |  Q hace el file       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+| []() |	       |
+
+
+### Author
+***
+*Holberton School Student*
+
+Daniel ruiz - [Github](https://github.com/ruizdani301) - [Twiter](https://twitter.com/@ruizdani301)
