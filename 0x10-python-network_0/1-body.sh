@@ -1,4 +1,3 @@
 #!/bin/bash
-#Write a Bash script that takes in a URL, sends a GET request to the URL,
-#and displays the body of the response
+#show the redirect if is succesfull
 curl -sL "$1"
